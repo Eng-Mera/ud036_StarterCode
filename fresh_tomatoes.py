@@ -130,6 +130,14 @@ movie_tile_content = '''
 
 
 def create_movie_tiles_content(movies):
+    """
+    :param movies:
+    :return: content
+
+    Extract Youtube ID from the URL
+    and Create The new trailer url
+    then append the movie data to the content string
+    """
     # The HTML content for this section of the page
     content = ''
     for movie in movies:
@@ -151,6 +159,12 @@ def create_movie_tiles_content(movies):
 
 
 def open_movies_page(movies):
+    """
+    :param movies:
+    :return: Open the web browser with our page
+
+    Create HTML file with our movies list
+    """
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
 

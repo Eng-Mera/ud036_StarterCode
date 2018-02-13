@@ -1,6 +1,6 @@
 # import media module that we created
 import media
-# import fresh_tomatoes module that take list of movies and render HTML file
+# import fresh_tomatoes module that take list of movies and render the HTML file
 import fresh_tomatoes
 
 # Toy Story Movie Instance
@@ -52,6 +52,6 @@ movies = [toy_story, avatar,
           iron_man, the_avengers, big_hero]
 """ 
     Call open_movies_page method that takes list of movies 
-    and render HTML page 
+    and render the website HTML page 
 """
 fresh_tomatoes.open_movies_page(movies)
