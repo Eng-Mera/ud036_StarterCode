@@ -1,5 +1,8 @@
 # udacity_MovieTrailerWebsite
-Source code for a Movie Trailer website.
+
+The Favorite Movie Trailer website that displays web page with list of your Favorite Movies .
+
+You can list the movies posters and when you click on any of it , its trailer will pop-up . 
 
 ## Prerequisites 
 
