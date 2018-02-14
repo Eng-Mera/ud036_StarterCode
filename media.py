@@ -31,22 +31,23 @@ class Movie:    # Define Movie Class
         :param movie_trailer (str):
         """
         # Assign The arguments values to instance variables
-        self.title = movie_title    # Assign movie_title argument to title instance variable
-        self.storyline = movie_storyline    # Assign movie_storyline argument to storyline instance variable
-        self.poster = movie_poster  # Assign movie_poster argument to poster instance variable
-        self.trailer = movie_trailer    # Assign movie_trailer argument to trailer instance variable
+        # Assign movie_title argument to title instance variable
+        self.title = movie_title
+        # Assign movie_storyline argument to storyline instance variable
+        self.storyline = movie_storyline
+        # Assign movie_poster argument to poster instance variable
+        self.poster = movie_poster
+        # Assign movie_trailer argument to trailer instance variable
+        self.trailer = movie_trailer
 
     """
-        show_trailer method 
-        
+        show_trailer method
         Arguments :
-            self : the instance itself 
-        
-        Return : 
+            self : the instance itself
+        Return :
             void method that don't return anything
             but it open the web browser with the movie trailer link
     """
     def show_trailer(self):
         # call open method from webbrowser module
         webbrowser.open(self.trailer)
-
